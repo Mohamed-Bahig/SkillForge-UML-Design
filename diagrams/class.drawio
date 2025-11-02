@@ -188,7 +188,7 @@
           <mxGeometry y="108" width="200" height="62" as="geometry" />
         </mxCell>
         <mxCell id="_HZII37e70nmzf59Q502-123" value="JsonDatabaseManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
-          <mxGeometry x="-610" y="40" width="260" height="150" as="geometry" />
+          <mxGeometry x="-610" y="30" width="260" height="160" as="geometry" />
         </mxCell>
         <mxCell id="_HZII37e70nmzf59Q502-124" value="&lt;div&gt;- usersFile : String&lt;/div&gt;&lt;div&gt;- coursesFile : String&lt;/div&gt;- analyticsFile : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="_HZII37e70nmzf59Q502-123" vertex="1">
           <mxGeometry y="26" width="260" height="54" as="geometry" />
@@ -196,8 +196,8 @@
         <mxCell id="_HZII37e70nmzf59Q502-125" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" parent="_HZII37e70nmzf59Q502-123" vertex="1">
           <mxGeometry y="80" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_HZII37e70nmzf59Q502-126" value="&lt;div&gt;+ readData(file : String) : Object&lt;/div&gt;&lt;div&gt;+ writeData(file : String, data : Object) : void&lt;/div&gt;&lt;div&gt;+ updateRecord(object : Object) : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="_HZII37e70nmzf59Q502-123" vertex="1">
-          <mxGeometry y="88" width="260" height="62" as="geometry" />
+        <mxCell id="_HZII37e70nmzf59Q502-126" value="&lt;div&gt;+ readData(file : String) : Object&lt;/div&gt;&lt;div&gt;+ writeData(file : String, data : Object) : void&lt;/div&gt;&lt;div&gt;+ updateRecord(object : Object) : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ listOfCour&lt;span style=&quot;white-space: pre;&quot;&gt;ses() &lt;/span&gt;: list&amp;lt;Course&amp;gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="_HZII37e70nmzf59Q502-123" vertex="1">
+          <mxGeometry y="88" width="260" height="72" as="geometry" />
         </mxCell>
         <mxCell id="_HZII37e70nmzf59Q502-129" value="UserService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="-425" y="280" width="200" height="180" as="geometry" />
